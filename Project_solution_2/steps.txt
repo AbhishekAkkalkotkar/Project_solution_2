@@ -1,0 +1,33 @@
+Create 4 directories:
+=====================
+
+/input
+/output
+/conf
+/script
+
+create the desired input html file in the input dir (/var/tmp/input)
+===================================================================
+
+1)input.html
+
+create the desired conf files in the conf dir (/var/tmp/conf)
+================================================================
+
+1)test.properties
+2)prod.properties
+
+create a script file in the script dir (/var/tmp/script)
+========================================================
+
+1)replaceToken.sh
+
+The files have been attached in the email
+
+the script to be run as
+========================
+
+./replaceTokens.sh ../input/index.html ../conf/test.properties
+../output/index.html
+
+check for the desired output in /var/tmp/output directory
